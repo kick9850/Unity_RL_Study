@@ -41,7 +41,7 @@ save_interval = 100
 game = "Drone"
 os_name = platform.system()
 if os_name == 'Windows':
-    env_name = f"../envs/{game}_{os_name}/{game}"
+    env_name = f"../envs/{game}/{game}"
 elif os_name == 'Darwin':
     env_name = f"../envs/{game}_{os_name}"
 
