@@ -46,9 +46,9 @@ elif os_name == 'Darwin':
     env_name = f"../envs/{game}_{os_name}"
 
 # 모델 저장 및 불러오기 경로
-date_time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+date_time = datetime.datetime.now().strftime("%Y%m%d")
 save_path = f"./saved_models/{game}/DDPG/{date_time}"
-load_path = f"./saved_models/{game}/DDPG/20210709235643"
+load_path = f"./saved_models/{game}/DDPG/{date_time}"
 
 # 연산 장치
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
