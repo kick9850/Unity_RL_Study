@@ -1,5 +1,7 @@
 # Unity_RL_Study
 파이토치와 유니티 ML-Agent로 배우는 강화학습 책 사용.
+- Drone 부분
+- Grid world 부분
 
 # Using Version
 ```
